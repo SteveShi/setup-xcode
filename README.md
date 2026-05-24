@@ -1,7 +1,7 @@
 # setup-xcode
 This action is intended to switch between pre-installed versions of Xcode for macOS images in GitHub Actions. Now fully powered by **Node.js 24**.
 
-The list of all available versions can be found in the [runner-images](https://github.com/actions/runner-images/tree/main/images/macos) repository (e.g., [macOS 15 Readme](https://github.com/actions/runner-images/blob/main/images/macos/macos-15-Readme.md#xcode)).
+The list of all available versions can be found in the [runner-images](https://github.com/actions/runner-images/tree/main/images/macos) repository (e.g., [macOS 26 Readme](https://github.com/actions/runner-images/blob/main/images/macos/macos-26-arm64-Readme.md#xcode)).
 
 # Available parameters
 | Argument                | Description              | Format    |
@@ -24,7 +24,7 @@ jobs:
     runs-on: macos-latest
     steps:
     - uses: actions/checkout@v6
-    - uses: lpgneg19/setup-xcode@v2
+    - uses: SteveShi/setup-xcode@v2
       with:
         xcode-version: latest-stable
 ```
@@ -36,7 +36,7 @@ jobs:
     runs-on: macos-15
     steps:
     - uses: actions/checkout@v6
-    - uses: lpgneg19/setup-xcode@v2
+    - uses: SteveShi/setup-xcode@v2
       with:
         xcode-version: '16.1'
 ```
@@ -48,7 +48,7 @@ jobs:
     runs-on: macos-26
     steps:
     - uses: actions/checkout@v6
-    - uses: lpgneg19/setup-xcode@v2
+    - uses: SteveShi/setup-xcode@v2
       with:
         xcode-version: '26.4-beta'
 ```
