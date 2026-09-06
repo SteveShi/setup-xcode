@@ -23,7 +23,7 @@ jobs:
   build:
     runs-on: macos-latest
     steps:
-    - uses: actions/checkout@v6
+    - uses: actions/checkout@v7
     - uses: SteveShi/setup-xcode@v2
       with:
         xcode-version: latest-stable
@@ -35,7 +35,7 @@ jobs:
   build:
     runs-on: macos-15
     steps:
-    - uses: actions/checkout@v6
+    - uses: actions/checkout@v7
     - uses: SteveShi/setup-xcode@v2
       with:
         xcode-version: '16.1'
@@ -47,7 +47,7 @@ jobs:
   build:
     runs-on: macos-26
     steps:
-    - uses: actions/checkout@v6
+    - uses: actions/checkout@v7
     - uses: SteveShi/setup-xcode@v2
       with:
         xcode-version: '26.4-beta'

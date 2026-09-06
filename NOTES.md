@@ -5,7 +5,7 @@ This update delivers a comprehensive modernization of the project environment an
 ### 🚀 Core Upgrades
 - **Node.js 24**: Fully upgraded the development and runtime environment from Node.js 20 to **Node.js 24**.
 - **ESLint v10**: Migrated to the modern **ESLint v10 Flat Config** format (`eslint.config.js`).
-- **Dependencies refreshed**: Updated major toolkits including `actions/checkout@v6`, `actions/setup-node@v6.3.0`, and `Jest v30.3.0`.
+- **Dependencies refreshed**: Updated major toolkits including `actions/checkout@v7`, `actions/setup-node@v6.3.0`, and `Jest v30.3.0`.
 
 ### 🛠️ CI/CD & E2E Enhancements
 - **Extended OS Support**: Expanded the E2E test matrix to cover upcoming and stable macOS environments:
